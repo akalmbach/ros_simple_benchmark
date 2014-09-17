@@ -1,0 +1,20 @@
+<package>
+<name>simple_benchmark</name>
+<version>0.0.0</version>
+
+<description>A node which echoes increasingly large data packets back and forth</description>
+
+<author email="arnold.kalmbach@pleiades.ca">Arnold Kalmbach</author>
+<maintainer email="arnold.kalmbach@pleiades.ca">Arnold Kalmbach</maintainer>
+
+<license>BSD</license>
+
+<buildtool_depend>catkin</buildtool_depend>
+<build_depend>message_generation</build_depend>
+<build_depend>std_msgs</build_depend>
+
+<run_depend>message_runtime</run_depend>
+<run_depend>std_msgs</run_depend>
+<run_depend>rospy</run_depend>
+
+</package>
