@@ -21,3 +21,8 @@ install(
     DIRECTORY scripts
     DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}
 )
+
+install(FILES
+  launch/simple_benchmark.launch
+  DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}
+)

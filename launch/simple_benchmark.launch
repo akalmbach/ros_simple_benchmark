@@ -1,0 +1,11 @@
+<launch>
+  <node name="first" type="SimpleBenchmark.py" pkg="simple_benchmark" output="screen">
+    <param name="name" value="first" type="string"/>
+    <param name="othername" value="second" type="string"/>
+  </node>
+  
+  <node name="second" type="SimpleBenchmark.py" pkg="simple_benchmark" output="screen">
+    <param name="name" value="second" type="string"/>
+    <param name="othername" value="first" type="string"/>
+  </node>
+</launch>
